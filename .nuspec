@@ -8,6 +8,7 @@
 	<owners>Julien Roncaglia</owners>
     <description>Annotations for the NLog.dll file</description>
     <tags>NLog Annotations</tags>
+	<iconUrl>https://raw.github.com/vbfox/nlog-resharper-annotations/master/nlog.png</iconUrl>
     <dependencies>
       <dependency id="ReSharper" version="[8.0,)" />
     </dependencies>
