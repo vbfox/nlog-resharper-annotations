@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NLog.Annotations</id>
+    <version>1.0.0.0</version>
+    <title>NLog Annotations</title>
+    <authors>Eugene Kirpichov, Julien Roncaglia, Yavor Shahpasov</authors>
+	<owners>Julien Roncaglia</owners>
+    <description>Annotations for the NLog.dll file</description>
+    <tags>NLog Annotations</tags>
+    <dependencies>
+      <dependency id="ReSharper" version="[8.0,)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="NLog\*.xml" target="ReSharper\vAny\annotations\" />
+  </files>
+</package>

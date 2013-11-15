@@ -1,0 +1,1 @@
+bin\NuGet.exe pack
