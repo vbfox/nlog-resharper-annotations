@@ -11,6 +11,40 @@
     </parameter>
   </member>
 
+  <member name="M:NLog.Logger.Debug``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Debug``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Debug``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Debug``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Debug``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Debug``3(System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+
+
   <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Boolean)">
     <parameter name="message">
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
@@ -158,6 +192,38 @@
     </parameter>
   </member>
 
+
+  <member name="M:NLog.Logger.Error``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Error``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Error``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Error``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Error``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Error``3(System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
 
 
 
@@ -309,6 +375,38 @@
   </member>
 
 
+  <member name="M:NLog.Logger.Fatal``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Fatal``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Fatal``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Fatal``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Fatal``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Fatal``3(System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
 
 
   <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Boolean)">
@@ -454,6 +552,40 @@
   </member>
   <member name="M:NLog.Logger.Fatal(System.String,System.UInt64)">
     <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+
+
+  <member name="M:NLog.Logger.Info``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Info``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Info``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Info``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Info``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Info``3(System.String,``0,``1,``2)">
+    <parameter name="name">
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
     </parameter>
   </member>
@@ -611,6 +743,41 @@
 
 
 
+  <member name="M:NLog.Logger.Trace``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Trace``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Trace``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Trace``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Trace``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Trace``3(System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+
+
+
   <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Boolean)">
     <parameter name="message">
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
@@ -754,6 +921,39 @@
   </member>
   <member name="M:NLog.Logger.Trace(System.String,System.UInt64)">
     <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+
+  <member name="M:NLog.Logger.Warn``1(System.IFormatProvider,System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Warn``2(System.IFormatProvider,System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Warn``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+
+  <member name="M:NLog.Logger.Warn``1(System.String,``0)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Warn``2(System.String,``0,``1)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+    </parameter>
+  </member>
+  <member name="M:NLog.Logger.Warn``3(System.String,``0,``1,``2)">
+    <parameter name="name">
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
     </parameter>
   </member>

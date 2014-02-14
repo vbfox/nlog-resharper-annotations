@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <assembly name="NLog">
+
+  <member name="M:NLog.Logger.Debug``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Debug``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
   <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Boolean)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
@@ -100,6 +121,27 @@
   <member name="M:NLog.Logger.Debug(System.String,System.UInt64)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
+
+  <member name="M:NLog.Logger.Error``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Error``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
 
   <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Boolean)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
@@ -202,7 +244,25 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
+  <member name="M:NLog.Logger.Fatal``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
+  <member name="M:NLog.Logger.Fatal``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
   <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Boolean)">
@@ -306,8 +366,25 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
+  <member name="M:NLog.Logger.Info``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
-
+  <member name="M:NLog.Logger.Info``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
   <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Boolean)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
@@ -411,6 +488,26 @@
   </member>
 
 
+  <member name="M:NLog.Logger.Trace``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Trace``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
 
 
   <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Boolean)">
@@ -513,6 +610,28 @@
   <member name="M:NLog.Logger.Trace(System.String,System.UInt64)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
+
+
+  <member name="M:NLog.Logger.Warn``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn``3(System.IFormatProvider,System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Warn``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn``3(System.String,``0,``1,``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
 
 
 
